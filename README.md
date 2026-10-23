@@ -18,7 +18,7 @@ Use `npm.cmd` in PowerShell if script execution policy blocks npm.ps1. Productio
 - `content/reviews.js`: 21 real reviewer names, ratings, relative dates and attributed summaries. These are summaries, not verbatim quotations.
 - `content/photos.js` and `content/company-photos.json`: owner-uploaded Google Maps photos stored locally as optimised WebP images.
 - `scripts/import-company-photos.mjs`: maintenance importer for the selected owner photos. Downloads are already included and are not needed at build time.
-- `scripts/adapt-cyclonic.mjs`: generates the company pages from `original-html`. Preserve this directory and `content/template-manifest.json` for the prebuild step.
+- `scripts/adapt-cyclonic.mjs`: generates the company pages from templates in `original-html` and `content/template-manifest.json`; both are required by the prebuild step.
 - `components/brand-styles.js`: brand styling and responsive additions.
 - `components/site-interactions.js`: enquiry forms, filters, accessible dialogs and gallery lightbox.
 

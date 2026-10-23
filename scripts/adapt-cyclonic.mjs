@@ -190,6 +190,7 @@ function home($) {
 function about($) {
   $('.about-hero-title').text('Extraordinary places. Personal journeys.');
   $('.about-hero-section .center-align.white-text').text('Meet Cyclonic Tours, a tour operator based in Victoria Falls, Zimbabwe. A conversation is the beginning of your next adventure.');
+  $('.about-video').replaceWith(`<section class="ct-map-block" aria-label="Cyclonic Tours location"><iframe title="Map showing Cyclonic Tours in Victoria Falls" src="https://maps.google.com/maps?q=-17.9315803,25.8275928&z=17&output=embed" width="1200" height="420" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><a class="ct-text-link" href="https://www.google.com/maps/@-17.9315803,25.8275928,17z?entry=ttu&amp;g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Open this location in Google Maps ↗</a></section>`);
   $('.featured-stays-section').remove();
   $('.about-section .subtitle-text').text('About Cyclonic Tours');
   $('.about-title').text('Inspired by Victoria Falls. Open to adventure.');
