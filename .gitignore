@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.next-production/
+.env*.local
+*.log
+.npm-cache/
+.next-qa/
+qa/

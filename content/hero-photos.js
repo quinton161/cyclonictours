@@ -1,0 +1,4 @@
+export const heroPhotos = [
+  { id:'home', file:'wildlife/home-elephants.webp', title:'Elephants at a waterhole in Hwange National Park, Zimbabwe', author:'Christine Donaldson', source:'https://commons.wikimedia.org/wiki/File:Hwange_National_Park,_Zimbabwe_(Unsplash).jpg', download:'https://upload.wikimedia.org/wikipedia/commons/6/68/Hwange_National_Park%2C_Zimbabwe_%28Unsplash%29.jpg', license:'CC0 1.0', licenseUrl:'https://creativecommons.org/publicdomain/zero/1.0/', originalWidth:5184, originalHeight:3456 },
+  { id:'about', file:'wildlife/about-lion.webp', title:'Cecil the lion in Hwange National Park, Zimbabwe (2010)', author:'Daughter#3', source:'https://commons.wikimedia.org/wiki/File:Cecil_the_lion_at_Hwange_National_Park_(4516560206).jpg', download:'https://live.staticflickr.com/2742/4516560206_c1896c946a_o.jpg', license:'CC BY-SA 2.0', licenseUrl:'https://creativecommons.org/licenses/by-sa/2.0/', originalWidth:3264, originalHeight:2329 },
+];

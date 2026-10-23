@@ -1,0 +1,26 @@
+{
+  "name": "cyclonic-tours",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/adapt-cyclonic.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/adapt-cyclonic.mjs",
+    "build": "next build",
+    "start": "next start",
+    "convert": "node scripts/adapt-cyclonic.mjs",
+    "verify:content": "node scripts/check-cyclonic.mjs",
+    "verify:browser": "node scripts/browser-cyclonic.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "next": "^15.5.28",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "styled-components": "^6.6.0"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.55.0"
+  }
+}
