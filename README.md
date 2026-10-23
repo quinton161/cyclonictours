@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Use `npm.cmd` in PowerShell if script execution policy blocks npm.ps1. Production: `npm run build`, then `npm start`. Dev uses `.next`, production `.next-production`. A second dev server can use `CYCLONIC_DEV_OUTPUT=.next-qa`.
+Use `npm.cmd` in PowerShell if script execution policy blocks npm.ps1. Production: `npm run build`, then `npm start`. Dev uses `.next-dev`, production `.next`. A second dev server can use `CYCLONIC_DEV_OUTPUT=.next-qa`.
 
 ## Content
 

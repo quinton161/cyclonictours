@@ -16,5 +16,5 @@ const nextConfig = {
 export default (phase) => ({
   ...nextConfig,
   // Keep a running dev server from overwriting production build files.
-  distDir: phase === PHASE_DEVELOPMENT_SERVER ? (process.env.CYCLONIC_DEV_OUTPUT || '.next') : '.next-production',
+  distDir: phase === PHASE_DEVELOPMENT_SERVER ? (process.env.CYCLONIC_DEV_OUTPUT || '.next-dev') : '.next',
 });
